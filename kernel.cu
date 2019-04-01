@@ -75,7 +75,7 @@ int main()
 	start = clock();
 
 	std::ofstream outfile;
-	outfile.open("HelloWorld.ppm");
+	outfile.open("Output.ppm");
 	outfile << "P3\n" << nx << " " << ny << "\n255\n";
 
 	for (int j = ny - 1; j >= 0; j--) {
